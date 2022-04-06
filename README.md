@@ -1,6 +1,6 @@
 # Metacritic API
 
-Metacritic API fetch game detail from [http://www.metacritic.com](http://www.metacritic.com/game/playstation-4)
+Fetch game detail from [http://www.metacritic.com](http://www.metacritic.com/game/playstation-4). More details in [tests](./tests/README.md)
 
 ## Run
 * With `docker-compose`
@@ -19,7 +19,7 @@ $ metacritic_api
 INFO:Serving on http://0.0.0.0:8081
 ```
 ## More Details
-* This application is written in Python Flask packed in pypi style, fetch game details and exposes 2 GET HTTP methods
+* This application is written in Python Flask packed in pypi style, fetch game details and exposes 2 GET HTTP methods(More details in [tests](./tests/README.md))
 * The application internally uses `waitress` server to serve requests.
 * In `docker-compose` deployment, the nginx container acts as proxy which configuration can be seen[here](/nginx-proxy.conf) for metacritic-api container
 
