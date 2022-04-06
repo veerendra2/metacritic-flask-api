@@ -1,6 +1,6 @@
 # Metacritic API
 
-Fetch game detail from [http://www.metacritic.com](http://www.metacritic.com/game/playstation-4). More details in [tests](./tests/README.md)
+Fetchs game detail from [http://www.metacritic.com](http://www.metacritic.com/game/playstation-4). More details in [tests](./tests/README.md)
 
 ## Run
 * With `docker-compose`
