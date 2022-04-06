@@ -1,0 +1,3 @@
+include metacritic_api.toml
+include *.md
+include LICENSE
